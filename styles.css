@@ -770,11 +770,11 @@ body::-webkit-scrollbar {
 
     .contact-form input,
     .contact-form textarea {
-      padding: 12px;
+      padding: 8px;
       margin-bottom: 16px;
       border: 1px solid #ccc;
       border-radius: 6px;
-      font-size: 15px;
+      font-size: 13px;
     }
 
     .contact-form button {
