@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="icon" href="img/NUVIXIS.png" type="image/png">
+  <title>Nuvixis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+  <img src="img/NUVIXIS NAV.png" alt="Nuvixis Logo" />
+     </a>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#" onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' }); return false;">Home</a></li>
+          <li><a href="#" onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); return false;">Services</a></li>
+		  <li><a href="#" onclick="document.getElementById('cases').scrollIntoView({ behavior: 'smooth' }); return false;">Use Cases</a></li>
+          <li><a href="#" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); return false;">Contact</a></li>
+          
+        </ul>
+        <div class="buttons">
+          <a href="#" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' }); return false;" class="btn btn-primary">Get started</a>
+        </div>
+      </nav>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Unlocking New<br />Realms of Innovation</h1>
+        <p>Tools tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+        <a href="#" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' }); return false;" class="btn btn-primary">Get started</a>
+      </div>
+      <div class="hero-image">
+        <img src="img/hero img - Copy.png" alt="Innovation steps" />
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+	
+	
+	<section class="who-we-are" id="about">
+  <h2>Who We Are ?</h2>
+  <p>
+    At NUVIXIS, we are proud to be one of India’s fastest-growing data labeling companies. As artificial intelligence continues to gain momentum, its related services have become widely discussed topics. Among these, data labeling holds critical importance, and we deliver these services with exceptional quality. We annotate images, videos, audio, and text to create high-quality training data for AI models across diverse applications. In addition, we offer services in web and graphic design, digital marketing, and data collection to support a wide range of business needs. Our commitment is to provide these services at the most competitive hourly rates in the market.
+  </p>
+</section>
+	
+	
+	
+	
+	
+<div class="car-animation-wrapper">
+  <!-- Text under car -->
+  <div class="car-track-text">Connect with <strong style="color: #a30061">100+</strong> tools</div>
+
+  <!-- Moving Car -->
+  <div class="moving-car">
+    <img class="center-image" src="img/car-top-view.png" alt="Car top view" />
+
+    <div class="wifi top">
+      <div class="arc arc1"></div>
+      <div class="arc arc2"></div>
+      <div class="arc arc3"></div>
+    </div>
+
+    <div class="wifi bottom">
+      <div class="arc arc1"></div>
+      <div class="arc arc2"></div>
+      <div class="arc arc3"></div>
+    </div>
+
+    <div class="wifi left">
+      <div class="arc arc1"></div>
+      <div class="arc arc2"></div>
+      <div class="arc arc3"></div>
+    </div>
+
+    <div class="wifi right">
+      <div class="arc arc1"></div>
+      <div class="arc arc2"></div>
+      <div class="arc arc3"></div>
+    </div>
+  </div>
+</div>
+
+
+	
+	
+	<section class="features-section" id="services">
+    <div class="services">
+      <h2>Our features and services</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <img src="img/data-annotation.png" alt="Data Annotation Icon" />
+          <h3>Data Annotation</h3>
+          <p>We provide high-quality data annotation services for AI and machine learning projects.
+             Our team accurately labels images, text, audio, and video data.
+             Ensure your models learn better with structured, annotated datasets.
+             Scalable solutions tailored to your project needs.
+
+          </p>
+        </div>
+        <div class="feature-card">
+          <img src="img/graphic-design.png" alt="Graphics Design Icon" />
+          <h3>Graphics Design</h3>
+          <p>Creative and professional graphic design that brings your brand to life.
+             We design logos, banners, social media creatives, brochures, and more.
+             Custom designs aligned with your brand identity and goals.
+             Let visuals speak louder with our expert design team.</p>
+        </div>
+        <div class="feature-card">
+		  <img src="img/data-recovery.png" alt="Data Annotation Icon" />
+          <h3>Data Recovery</h3>
+          <p>Recover lost or corrupted data quickly and securely.
+             We handle recovery from hard drives, SSDs, memory cards, and more.
+             Our experts use advanced tools to restore critical files.
+             Your data is in safe hands with our trusted recovery solutions.</p>
+        </div>
+		  
+		  
+		  
+        <div class="feature-card">
+          <img src="img/digital-marketing.png" alt="Digital Marketing Icon" />
+          <h3>Digital Marketing</h3>
+          <p>End-to-end digital marketing to increase your reach and boost conversions.
+             We offer SEO, social media marketing, PPC, email campaigns, and more.
+             Data-driven strategies tailored to your business goals.
+             Grow your brand online with measurable and effective results.</p>
+        </div>
+      </div>
+		<div class="features-grid">
+        <div class="feature-card">
+          <img src="img/web-design.png" alt="Web Design Icon" />
+          <h3>Web Design</h3>
+          <p>Modern, responsive, and user-friendly website designs to grow your business.
+             We build websites that are fast, secure, and optimized for all devices.
+             From landing pages to full-scale websites, we cover it all.
+             Create a strong online presence with our expert web solutions.</p>
+        </div>
+        <div class="feature-card">
+          <img src="img/it-support.png" alt="Graphics Design Icon" />
+          <h3>IT Support</h3>
+          <p>Reliable IT support to keep your systems running smoothly.
+             We provide remote and on-site assistance for businesses of all sizes.
+             From troubleshooting to maintenance, we’ve got you covered.
+             Stay focused on your business while we handle your tech needs.</p>
+        </div>
+        <div class="feature-card">
+          <img src="img/data-collection.png" alt="Web Design Icon" />
+          <h3>Data Collection</h3>
+          <p>Accurate and ethical data collection tailored to your research or project needs.
+             We gather data from reliable sources across various formats and platforms.
+             Customized services for surveys, web scraping, field research, and more.
+             Get the right data to drive smart decisions.</p>
+        </div>
+        <div class="feature-card">
+          <img src="img/Transcription-Translation.png" alt="Digital Marketing Icon" />
+          <h3>Transcription and Translation</h3>
+          <p>Fast and precise transcription and translation services for global communication.
+             We transcribe audio/video content and translate documents in multiple languages.
+             Ideal for business, legal, medical, and academic needs.
+             Break language barriers and ensure message clarity with us.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+	
+	
+  <section class="why-choose-us">
+    <div class="choose">
+      <div class="image-section">
+        <img src="img/Innovation-pana.png" alt="Illustration" />
+      </div>
+      <div class="text-section">
+        <h2>Why choose us ?</h2>
+        <p>
+          We combine expertise, innovation, and reliability to deliver world-class solutions across a wide spectrum of digital and IT services. Here's why businesses around the globe choose us :
+        </p>
+        <ul class="features-list">
+		  <li><p>Quality-First Approach</p></li>
+		  <li><p>Skilled & Versatile Team</p></li>
+		  <li><p>One-Stop Digital Solution</p></li>
+          <li><p>Timely & Reliable Delivery</p></li>
+		  <li><p>Assured data security and privacy</p></li>
+		  <li><p>Competitive & Transparent Pricing</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+	
+	
+	<section class="use-cases" id="cases">
+    <div class="use-cases-left">
+      <h1>Use Cases</h1>
+      <p style="font-size: 14px">We support a wide range of industries including technology, healthcare, e-commerce, education, media, legal, and finance. Our tailored solutions help businesses in these sectors improve efficiency, enhance digital presence, and drive measurable results.</p>
+
+      <div class="industries">
+        <div class="industry"><span class="material-symbols-outlined">finance_mode</span> Finance</div>
+		<div class="industry"><span class="material-symbols-outlined">person_shield</span> Insurance</div>
+		<div class="industry"><span class="material-symbols-outlined">balance</span> Legal</div>
+		<div class="industry"><span class="material-symbols-outlined">garage</span> Automotive</div>
+		<div class="industry"><span class="material-symbols-outlined">sports_handball</span> Sports</div>
+		<div class="industry"><span class="material-symbols-outlined">medical_services</span> Healthcare</div>
+		<div class="industry"><span class="material-symbols-outlined">shopping_bag_speed</span> Ecommerce</div>
+		<div class="industry"><span class="material-symbols-outlined">share</span> Social Media</div>
+		<div class="industry"><span class="material-symbols-outlined">dynamic_feed</span> Other Industries...</div>
+      </div>
+    </div>
+
+    <div class="use-cases-right">
+      <div class="image-wrapper">
+        <img src="img/all.png" alt="Use Case Image" />
+      </div>
+    </div>
+  </section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<section class="contact-section" id="contact">
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <h3>Get in touch today</h3>
+    <p>Ready to elevate your business with expert digital services?<br>
+	   Whether you have a question, need a custom quote, or want to discuss a project - we're here to help.</p>
+
+    <div class="info-box">
+        <i class="fas fa-envelope"></i>
+         <div>Email : <strong>info@nuvixis.com</strong></div>
+    </div>
+
+
+    <div class="info-box">
+      <i class="fas fa-phone"></i>
+      <div>Phone : <strong>+91 6282668056</strong></div>
+    </div>
+
+    <div class="social-icons">
+	  <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <form id="submit-form" action="">
+      <input type="text" id="fname" name="Name" placeholder="Full Name" required>
+      <input type="email" id="lname" name="Email" placeholder="Email" required>
+      <input type="text" id="cname" name="Company" placeholder="Company (optional)">
+      <textarea rows="5" id="subject" name="Message" placeholder="Leave us a message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>	
+	
+	<!-- <form id="submit-form" action="">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name..">
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="email" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="color">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="message" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form> -->
+	
+	
+	
+	
+	<!-- footer.html -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Logo Section -->
+    <div class="footer-logo">
+      <img src="img/NUVIXIS NAV.png" alt="NUVIXIS Logo" />
+    </div>
+
+    <!-- Spacer -->
+    <div class="footer-spacer"></div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Find Us Here</h4>
+      <ul style="cursor: pointer">
+        <li><a>NUVIXIS, JC Building</a></li>
+        <li><a>Near Hospital JN</a></li>
+        <li><a>Palakkad, Kerala</a></li>
+        <li><a>678001</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal Stuff -->
+    <div class="footer-legal">
+      <h4>Jump To</h4>
+      <ul>
+        <li><a href="#" onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' }); return false;">Home</a></li>
+        <li><a href="#" onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); return false;">Services</a></li>
+		<li><a href="#" onclick="document.getElementById('cases').scrollIntoView({ behavior: 'smooth' }); return false;">Use Cases</a></li>
+        <li><a href="#" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' }); return false;">Contact</a></li>
+        
+      </ul>
+    </div>
+
+    <!-- Sign Up -->
+    <div class="footer-signup">
+      <p>Want to work together?</p>
+      <input type="text" placeholder="Enter your Email">
+      <button>Join our team</button>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2020 NUVIXIS</p>
+    <p><a href="mailto:info@nuvixis.com" style="text-decoration: none">info@nuvixis.com</a></p>
+  </div>
+</footer>
+
+	
+	<!-- Scroll to Top Button -->
+<a href="#" onclick="document.getElementById('top').scrollIntoView({ behavior: 'smooth' }); return false;" class="scroll-to-top" id="scrollToTopBtn">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Scroll to Top Button Styles -->
+	
+	
+	<!-- Scroll to Top Button Script -->
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  });
+</script>
+	
+	
+	
+	<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzoh4n50qBAl_tWeDr4azh-oLl3csK8ZYjGVisT_OfHYYFK0iWkbvAA2SQeONYJivo/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+	
+	
+	
+	
+	
+	
+</body>
+</html>
