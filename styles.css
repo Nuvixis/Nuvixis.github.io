@@ -10,10 +10,6 @@ body {
   color: #1c1c1c;
 }
 
-body::-webkit-scrollbar {
-  display: ; /* Chrome, Safari, Opera */
-}
-
 /* NAVIGATION */
 .navbar {
   width: 100%;
@@ -975,6 +971,7 @@ html {
     scroll-behavior: smooth; /* Smooth scrolling */
 	scroll-padding-top: 100px;
   }
+
 
 
 
