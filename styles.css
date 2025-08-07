@@ -11,7 +11,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: ; /* Chrome, Safari, Opera */
 }
 
 /* NAVIGATION */
@@ -975,6 +975,7 @@ html {
     scroll-behavior: smooth; /* Smooth scrolling */
 	scroll-padding-top: 100px;
   }
+
 
 
 
